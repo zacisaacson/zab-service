@@ -1,3 +1,10 @@
 language: ruby
 rvm:
- - 2.4.1
+- 2.4.1
+deploy:
+  provider: heroku
+  api_key:
+    secure: AXYvKGA19bVcyA+alhIAmGp7zUeIHKg1mbkbP4FkyqaR5MGoYFJ2YQ4HUrER4zElIOYA5/D7rTRhdsiVnn18S7dPD7iuVN7dvjRyVAQZVdHunUdBP0CV8L7lkq4GEgn31lMeMcQ42qEsvSaAiikSPXahH6IoGpKnE2R9J3rr/eZm7dJ7wJsr2RT+IJO++fNC+dbybGQs1Fq7Bub8ZRF5UDjdNN106UUaKh4DBCnL/9y9ieLQtwHVCvNMG++wcqkL1U9MC4PQc77vM+OG3s4/uOeyc6zFNFABPQs9A5rAjHyYXPWTqUWpnl5SFkWp7FLfiPeUnr5ttavuxDF+/ug9tJTjJgDtfOq1I5pf+Y6/A3OFg3mYQfdb5nlSKfPLa5g0j79JctVc5VptKw8YXQnQiDW6X8Iz2u0Ozb/l2AAr/Fg0RGWEG40mM6CgYR7rklIo+qTZFErFUz7hLnpvFbL8p0kp2L7bueAUYEunci1Y2SFVdBeiIZDp8JDOGILduUr+XJP7tIdrZINTC9kiTb/YOXrvbovHebLOJ1w3JVvrmKT+nsIbXw4VQHvHcbjSjjCploXHVXXnZuXvVtoDBZvvarvZ8TWoSegmb+EjzVAKWm8qwmvkzY3rnm0t8/cfGE2ETN62jCmzcEL3hy9vcA7ZXhDOAjEA2mMjKnDkR9/gmEQ=
+  app: zab-service
+  on:
+    repo: zacisaacson/zab-service
