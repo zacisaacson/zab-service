@@ -28,8 +28,6 @@ GEM
     diff-lcs (1.3)
     faraday (1.0.0)
       multipart-post (>= 1.2, < 3)
-    fast_jsonapi (1.5)
-      activesupport (>= 4.2)
     i18n (1.7.0)
       concurrent-ruby (~> 1.0)
     launchy (2.4.3)
@@ -92,7 +90,6 @@ DEPENDENCIES
   activerecord
   capybara
   faraday
-  fast_jsonapi
   launchy
   pg
   pry
