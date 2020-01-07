@@ -6,6 +6,7 @@ gem 'activerecord'
 gem 'sinatra-activerecord'
 gem 'rake'
 gem 'require_all'
+gem 'faraday'
 
 group :development, :test do
   gem 'shotgun'
@@ -13,4 +14,5 @@ group :development, :test do
   gem 'rspec-core'
   gem 'capybara'
   gem 'launchy'
+  gem 'pry'
 end
